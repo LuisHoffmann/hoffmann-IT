@@ -1,228 +1,88 @@
-body{
-  font-family: "Montserrat";
-  text-align: center;
+
+html,body{
+  margin: 0;
+  font-family: sans-serif;
+  display: block;
+  height: 100%;
+  width: 100%;
+ 
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+#header{
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F8;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 0.5px;
+  border-color: rgb(119, 119, 120, 0.25);
 }
 
-.container-fluid{
-  padding: 3% 15%;
-  text-align: center;
+.h-i-top-bar{
+  color: #002366;
+  font-size: 15px;
+  justify-content: center;
+  width: 38.2%;
+  padding: 5px 5px 5px 100px;
 }
 
-/* headings */
-.bigHeading{
-  font-size: 4rem;
-  line-height: 1.5;
-  font-weight: 900;
+.top-bar-item{
+  display: inline-block;
 }
 
-.sectionHeading{
-  font-weight: 700;
-  font-size: 3.5rem;
-  padding-bottom: 5%;
-}
-
-.minorHeading{
-  font-weight: 700;
-  font-size: 2.5rem;
-  padding-bottom: 5%;
-}
-
-/* sections */
-
-.coloredSection{
-  background-color: #181818;
+.empty-header{
+  width: 61.8%;
   color: white;
+  justify-content: center;
 }
 
-.whiteSection{
-  background-color: rgb(241, 241, 241);
+
+.action-menu{
+  list-style: none;
+}
+
+.action-menu-item{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-button{
   color: black;
+  font-size: 15px;
+  background-color: rgba(0,0,0,0.0);
+  border-width: 0;
+  border-color: rgba(0,0,0,0.0);
+  padding: 3px;
+}
+.menu-button:hover{
+  color: rgb(119, 119, 120);
+  cursor: pointer;
+}
+
+
+#introduction{
   width: 100%;
 }
 
-
-/* Navigation Bar */
-
-.navbar{
-  padding: 0 0 4.5rem;
+.intro-video{
+  width: 100%;
 }
 
-.navbar-brand{
-  font-family: "Ubuntu";
-  font-size: 3.5rem;
-  font-weight: bold;
-}
-
-.navbar-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size: 2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* DownloadButtons */
-.download-button{
-  margin: 5% 3% 5% 0;
-  font-size: 2.5rem;
-}
-
-/* title */
-
-.title-image{
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 20px;
-}
-
-/* features */
-
-#features{
-  padding: 7% 15% 7%;
-  position: relative;
-}
-
-.featureText{
-  color: #8f8f8f;
-}
-
-.featureIcon{
-  font-size: 3.5rem;
-  color: #4a4c4b;
-  margin-bottom: 1rem;
-}
-
-.featureIcon:hover{
-  color:#141515;
-}
-
-
-/* Testimonials */
-
-#testimonials{
-  background-color: #2E7D32;
-}
-
-.testimonial-image{
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-/*press*/
-
-#press{
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo{
-  width: 10%;
-  margin: 20px 20px 50px;
-}
-
-.carousel-item{
-    padding: 7% 15%;
-}
-
-/* pricing */
-
-#pricing{
-  padding: 100px;
-}
-
-#pricing .sectionHeading, .minorHeading{
+#status{
+  text-align: center;
+  padding: 40px 5px 40px 5px;
   color: black;
 }
 
-.pricing-column{
-  padding: 3% 2%;
-}
-
-/* call to action */
-
-.ctaSectionContent{
-    padding: 5%;
-}
-
-.ctaButtons{
-  margin: 2%;
-}
-
-/* contact form */
-
-
-/* footer */
-
-.deftrib-link{
-  color: #37474F;
-    line-height: 1.5;
-    display: inline-block;
-    cursor: pointer;
-    white-space: nowrap;
-    font-size: 14px;
-    display: block;
-    margin-bottom:
-    1rem;
-}
-
-.last-deftrib-link{
-  margin-bottom: 2rem;
-}
-
 #footer{
-  padding: 3% 2% 0%;
-  background-color: rgb(59, 59, 59);
+  background-color: #F8F8F8;
+  padding: 40px 5px 40px 5px;
+  text-align: center;
 }
 
-.socialMedia{
-  margin: 50px 50px 50px;
-}
-
-.deftrib-link, p, em{
-  font-size: 2rem;
-}
-
-h3{
-  font-size: 2.5rem;
-}
-
-i{
-  font-size: 2.5rem;
-}
-
-/* privacyPolicy*/
-#privacy-policy{
-  padding: 3rem;
-  text-align: left;
-}
-
-.privacy-policy-heading{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  font-weight: bold;
-}
-
-/* legal notice */
-#legal-notice{
-  padding: 3rem;
-  text-align: left;
-}
-
-.legal-notice-heading{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  font-weight: bold;
-}
-
-/* Background */
-.background-video{
-  text-align: left;
-
+.footer-item{
+  margin-left: 10px;
+  margin-right: 10px;
 }
